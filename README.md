@@ -6,11 +6,11 @@ This is my personal portfolio website showcasing my skills, education, projects,
 
 ## 🚀 Live Demo
 
-Add your GitHub Pages link here
+https://varaprasad-225.github.io/varaportfolio/
 
 ## 📂 GitHub Repository
 
-Add your GitHub Repository link here
+
 
 ## ✨ Features
 
