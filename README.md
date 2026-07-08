@@ -36,7 +36,8 @@ https://github.com/VaraPrasad-225
 
 ## 📸 Screenshot
 
-Add your portfolio screenshot here.
+![Portfolio Screenshot]<img width="960" height="540" alt="Screenshot 2026-07-08 094505" src="https://github.com/user-attachments/assets/bbf038be-9743-44d8-a913-023cbfba9032" />
+
 
 ## 📁 Folder Structure
 
