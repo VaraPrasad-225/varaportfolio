@@ -59,9 +59,9 @@ This project was developed with my own understanding and implementation. I used 
 
 **Madduri Vara Prasad**
 
-- LinkedIn: Add your LinkedIn URL
-- GitHub: Add your GitHub URL
-- Email: Your Email Address
+- LinkedIn: https://www.linkedin.com/in/vara-prasad-madduri-javadeveloper?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- GitHub: https://github.com/VaraPrasad-225
+- Email: maddurivaraprasad66@gmail.com
 
 ## 📄 License
 
