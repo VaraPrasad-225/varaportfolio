@@ -1,69 +1,81 @@
-# 💼 Madduri Vara Prasad - Personal Portfolio
+# Madduri Vara Prasad - Java Full Stack Developer Portfolio
 
-## 📌 About the Project
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
-This is my personal portfolio website showcasing my skills, education, projects, and contact information. It is designed with a modern, responsive UI using HTML, CSS, and JavaScript.
+A premium, recruiter-friendly developer portfolio website built with HTML5, CSS3 (Dark Glassmorphism UI), and Vanilla JavaScript. Showcasing software engineering projects, Core Java & SQL skillsets, academic qualification, and interactive project details.
 
-## 🚀 Live Demo
+---
 
-https://varaprasad-225.github.io/varaportfolio/
+## 🌟 Live Demo
 
-## 📂 GitHub Repository
+🔗 **Portfolio URL**: [https://varaprasad-225.github.io/varaportfolio/](https://varaprasad-225.github.io/varaportfolio/)
 
-https://github.com/VaraPrasad-225
+---
 
-## ✨ Features
+## 📁 Repository Structure
 
-- Responsive Design
-- Modern UI
-- Typing Animation
-- Smooth Scrolling
-- About Me Section
-- Skills Section
-- Education Section
-- 10 Projects Section
-- Contact Form
-- Social Media Links
-- Professional Profile Photo
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub Pages
-
-## 📸 Screenshot
-
-![Portfolio Screenshot]<img width="960" height="540" alt="Screenshot 2026-07-08 094505" src="https://github.com/user-attachments/assets/bbf038be-9743-44d8-a913-023cbfba9032" />
-
-
-## 📁 Folder Structure
-
-```
-portfolio/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-│── resume.pdf
-│── images/
-│   └── profile.jpg
+```text
+varaportfolio/
+├── index.html                       # Main Portfolio Single Page HTML5 Markup
+├── style.css                        # Glassmorphism Design Tokens & Responsive CSS
+├── script.js                        # Dynamic Typing, Scroll Reveal & Modal Dialog Controller
+├── Gemini_Generated_Image_5qytat5qytat5qyt.png # Hero Profile Picture
+├── VaraPrasad_Resume_Optimized.pdf  # Downloadable Resume PDF
+├── assets/                          # Organized Asset Copies
+│   ├── images/                      # Profile & Visual Graphic Assets
+│   └── docs/                        # Resume & Academic Documents
+├── sql/                             # Database Relational Scripts
+│   └── hospital_database.sql        # MySQL Schema & Data Script for Hospital Patient Portal
+├── backend/                         # Java Backend Architectural Documentation
+│   └── README.md                    # Java, Servlets, JSP, JDBC & Tomcat Guide
+└── docs/                            # Project Specifications
+    └── PORTFOLIO_OVERVIEW.md        # Technical Documentation Overview
 ```
 
-## 🤖 AI Usage Disclosure
+---
 
-This project was developed with my own understanding and implementation. I used ChatGPT to get guidance for UI improvements, debugging, and code optimization. I understand the code and can explain it during the evaluation.
+## 🛠️ Featured Projects & Code Repositories
 
-## 👨‍💻 Author
+1. **Hospital Patient Portal**
+   - **Tech Stack**: Java, JSP, Servlets, JDBC, MySQL, Maven, Apache Tomcat
+   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/HospitalPatientPortal) | [Live Demo](https://varaprasad-225.github.io/HospitalPatientPortal/)
+   - 🗄️ [SQL Database Schema](./sql/hospital_database.sql)
 
-**Madduri Vara Prasad**
+2. **E-Commerce Website**
+   - **Tech Stack**: HTML5, CSS3, JavaScript (ES6+), DOM State
+   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/ecommerce-website) | [Live Demo](https://varaprasad-225.github.io/ecommerce-website/)
 
-- LinkedIn: https://www.linkedin.com/in/vara-prasad-madduri-javadeveloper?utm_source=share_via&utm_content=profile&utm_medium=member_android
-- GitHub: https://github.com/VaraPrasad-225
-- Email: maddurivaraprasad66@gmail.com
+3. **Product Landing Page**
+   - **Tech Stack**: HTML5, CSS3, JavaScript, Flexbox/Grid
+   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/Product-Landing-Page) | [Live Demo](https://varaprasad-225.github.io/Product-Landing-Page/)
 
-## 📄 License
+4. **College Fest Landing Page**
+   - **Tech Stack**: HTML5, CSS3, JavaScript, DOM Animations
+   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/College-Fest-Landing-Page) | [Live Demo](https://varaprasad-225.github.io/College-Fest-Landing-Page/)
 
-This project is created for learning and portfolio purposes.
+5. **TAP Academy Clone**
+   - **Tech Stack**: HTML5, CSS3, Flexbox Grid
+   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/Tap-Academy-Clone) | [Live Demo](https://varaprasad-225.github.io/Tap-Academy-Clone/)
+
+---
+
+## 🎓 Education
+
+- **B.Tech - Computer Science & Engineering** | RISE Krishna Sai Gandhi Group of Institutions (2022–2026) | **7.92 / 10 CGPA**
+- **Intermediate (MPC)** | Sri Sadhana Junior College | **8.40 / 10 CGPA (84%)**
+- **Secondary School Certificate (SSC)** | Z.P.H. School | **10.0 / 10 CGPA (96.66%)**
+
+---
+
+## 📬 Contact & Profiles
+
+- **Email**: [maddurivaraprasad66@gmail.com](mailto:maddurivaraprasad66@gmail.com)
+- **Phone**: [+91 9177948832](tel:+919177948832)
+- **LinkedIn**: [Vara Prasad Madduri](https://www.linkedin.com/in/vara-prasad-madduri-javadeveloper)
+- **GitHub**: [@VaraPrasad-225](https://github.com/VaraPrasad-225)
+- **Location**: Bengaluru, India
