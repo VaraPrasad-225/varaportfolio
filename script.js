@@ -180,52 +180,52 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             tech: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/VaraPrasad-225/HospitalPatientPortal",
-            live: "https://varaprasad-225.github.io/HospitalPatientPortal/"
+            live: "https://github.com/VaraPrasad-225/HospitalPatientPortal"
         },
         cineflix: {
             title: "CineFlix+ OTT Platform",
             subtitle: "Streaming Entertainment Web Interface",
             icon: "fa-film",
-            description: "A feature-rich OTT video streaming web platform inspired by Netflix, featuring hero video banners, movie category carousels, detailed media modals, and responsive dark glass UI.",
+            description: "An educational OTT video streaming web platform interface built for frontend portfolio demonstration. Features hero video banners, movie category carousels, detailed media modals, and responsive dark glass UI.",
             features: [
                 "Dynamic Movie & Series Catalog Carousels",
                 "Interactive Trailer Preview Modal with Audio Controls",
                 "Responsive Dark Theme UI with Glassmorphism",
-                "Search & Genre Filtering Architecture"
+                "Educational UI/UX Architecture Showcase"
             ],
-            tech: ["HTML5", "CSS3", "JavaScript", "Flexbox / Grid"],
+            tech: ["HTML5", "CSS3", "JavaScript", "Educational Project"],
             github: "https://github.com/VaraPrasad-225/NetflixUiClone",
-            live: "https://varaprasad-225.github.io/NetflixUiClone/"
+            live: "https://github.com/VaraPrasad-225/NetflixUiClone"
         },
         connectpro: {
             title: "ConnectPro – Professional Networking",
-            subtitle: "LinkedIn Inspired Social Platform",
+            subtitle: "Social Networking Platform Interface",
             icon: "fa-linkedin",
-            description: "A professional networking web interface replicating core LinkedIn features including user feed posts, profile sidebars, connection interactions, and dynamic layout responsiveness.",
+            description: "An educational professional networking web platform interface built for portfolio demonstration. Features user feed posts, profile sidebars, connection interactions, and dynamic layout responsiveness.",
             features: [
                 "Interactive Post Creation & Reaction Buttons",
                 "Profile Connections Sidebar & Messaging Panel",
                 "Sticky Header Navigation & Search Bar",
-                "Clean Responsive Layout across Mobile & Desktop"
+                "Educational UI/UX Layout Architecture"
             ],
-            tech: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
+            tech: ["HTML5", "CSS3", "JavaScript", "Educational Project"],
             github: "https://github.com/VaraPrasad-225/LinkedinUiClone",
-            live: "https://varaprasad-225.github.io/LinkedinUiClone/"
+            live: "https://github.com/VaraPrasad-225/LinkedinUiClone"
         },
         soundsphere: {
             title: "SoundSphere – Music Streaming",
-            subtitle: "Spotify Inspired Audio Web App",
+            subtitle: "Audio Web App Interface",
             icon: "fa-spotify",
-            description: "An interactive music player application mimicking Spotify's interface, complete with audio playback controls, playlist selection, volume slider, track seek bar, and album covers.",
+            description: "An interactive educational music player application with audio playback controls, playlist selection, volume slider, track seek bar, and album cover interface.",
             features: [
                 "Custom Audio Player with Play, Pause, Next, Previous & Seek",
                 "Interactive Track Queue & Album Art Display",
                 "Dynamic Volume Control & Duration Timers",
-                "Dark Audio Player Glass Interface"
+                "Educational Audio Player Interface"
             ],
-            tech: ["HTML5", "CSS3", "JavaScript", "Audio Player"],
+            tech: ["HTML5", "CSS3", "JavaScript", "Educational Project"],
             github: "https://github.com/VaraPrasad-225/soptifyUICLONE",
-            live: "https://varaprasad-225.github.io/soptifyUICLONE/"
+            live: "https://github.com/VaraPrasad-225/soptifyUICLONE"
         },
         portfolio: {
             title: "Personal Developer Portfolio",
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             tech: ["HTML5", "CSS3", "JavaScript", "Glassmorphism"],
             github: "https://github.com/VaraPrasad-225/varaportfolio",
-            live: "https://varaprasad-225.github.io/varaportfolio/"
+            live: "https://github.com/VaraPrasad-225/varaportfolio"
         },
         ecommerce: {
             title: "E-Commerce Website",
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             tech: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
             github: "https://github.com/VaraPrasad-225/ecommerce-website",
-            live: "https://varaprasad-225.github.io/ecommerce-website/"
+            live: "https://github.com/VaraPrasad-225/ecommerce-website"
         },
         product: {
             title: "Product Landing Page",
@@ -269,7 +269,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             tech: ["HTML5", "CSS3", "JavaScript", "Flexbox / Grid"],
             github: "https://github.com/VaraPrasad-225/Product-Landing-Page",
-            live: "https://varaprasad-225.github.io/Product-Landing-Page/"
+            live: "https://github.com/VaraPrasad-225/Product-Landing-Page"
         },
         tap: {
             title: "TAP Academy Clone",
@@ -283,7 +283,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             tech: ["HTML5", "CSS3", "JavaScript"],
             github: "https://github.com/VaraPrasad-225/Tap-Academy-Clone",
-            live: "https://varaprasad-225.github.io/Tap-Academy-Clone/"
+            live: "https://github.com/VaraPrasad-225/Tap-Academy-Clone"
         },
         fest: {
             title: "College Fest Landing Page",
@@ -297,22 +297,22 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
             tech: ["HTML5", "CSS3", "JavaScript", "Animations"],
             github: "https://github.com/VaraPrasad-225/College-Fest-Landing-Page",
-            live: "https://varaprasad-225.github.io/College-Fest-Landing-Page/"
+            live: "https://github.com/VaraPrasad-225/College-Fest-Landing-Page"
         },
         instagram: {
             title: "Instagram UI Clone",
             subtitle: "Social Media Web App Replica",
             icon: "fa-instagram",
-            description: "A modern, responsive clone of Instagram's web application interface, featuring feed posts, story carousels, sidebar navigation, and interactive like/comment components.",
+            description: "An educational web application clone of Instagram featuring story carousels, main feed cards, collapsible left sidebar navigation, and interactive like/comment controls.",
             features: [
                 "Story Carousel & Responsive Feed Card Layout",
                 "Interactive Post Actions (Like, Comment, Save)",
                 "Left Sidebar Navigation with Collapsible Desktop Layout",
-                "Clean Pixel-Perfect Aesthetic"
+                "Educational UI/UX Aesthetic"
             ],
             tech: ["HTML5", "CSS3", "JavaScript"],
             github: "https://github.com/VaraPrasad-225/InstagramUIClone",
-            live: "https://varaprasad-225.github.io/InstagramUIClone/"
+            live: "https://github.com/VaraPrasad-225/InstagramUIClone"
         }
     };
 

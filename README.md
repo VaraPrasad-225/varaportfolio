@@ -37,30 +37,30 @@ varaportfolio/
     └── PORTFOLIO_OVERVIEW.md        # Technical Documentation Overview
 ```
 
----
-
-## 🛠️ Featured Projects & Code Repositories
-
-1. **Hospital Patient Portal**
-   - **Tech Stack**: Java, JSP, Servlets, JDBC, MySQL, Maven, Apache Tomcat
-   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/HospitalPatientPortal) | [Live Demo](https://varaprasad-225.github.io/HospitalPatientPortal/)
-   - 🗄️ [SQL Database Schema](./sql/hospital_database.sql)
-
-2. **E-Commerce Website**
-   - **Tech Stack**: HTML5, CSS3, JavaScript (ES6+), DOM State
-   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/ecommerce-website) | [Live Demo](https://varaprasad-225.github.io/ecommerce-website/)
-
-3. **Product Landing Page**
-   - **Tech Stack**: HTML5, CSS3, JavaScript, Flexbox/Grid
-   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/Product-Landing-Page) | [Live Demo](https://varaprasad-225.github.io/Product-Landing-Page/)
-
-4. **College Fest Landing Page**
-   - **Tech Stack**: HTML5, CSS3, JavaScript, DOM Animations
-   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/College-Fest-Landing-Page) | [Live Demo](https://varaprasad-225.github.io/College-Fest-Landing-Page/)
-
-5. **TAP Academy Clone**
-   - **Tech Stack**: HTML5, CSS3, Flexbox Grid
-   - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/Tap-Academy-Clone) | [Live Demo](https://varaprasad-225.github.io/Tap-Academy-Clone/)
+41: ---
+42: 
+43: ## 🛠️ Featured Projects & Code Repositories
+44: 
+45: 1. **Hospital Patient Portal**
+46:    - **Tech Stack**: Java, JSP, Servlets, JDBC, MySQL, Maven, Apache Tomcat
+47:    - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/HospitalPatientPortal)
+48:    - 🗄️ [SQL Database Schema](./sql/hospital_database.sql)
+49: 
+50: 2. **E-Commerce Website**
+51:    - **Tech Stack**: HTML5, CSS3, JavaScript (ES6+), DOM State
+52:    - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/ecommerce-website)
+53: 
+54: 3. **Product Landing Page**
+55:    - **Tech Stack**: HTML5, CSS3, JavaScript, Flexbox/Grid
+56:    - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/Product-Landing-Page)
+57: 
+58: 4. **College Fest Landing Page**
+59:    - **Tech Stack**: HTML5, CSS3, JavaScript, DOM Animations
+60:    - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/College-Fest-Landing-Page)
+61: 
+62: 5. **TAP Academy Clone**
+63:    - **Tech Stack**: HTML5, CSS3, Flexbox Grid
+64:    - 🔗 [GitHub Repository](https://github.com/VaraPrasad-225/Tap-Academy-Clone)
 
 ---
 
