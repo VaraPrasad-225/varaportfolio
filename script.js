@@ -353,21 +353,38 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalBody = id("modal-body");
     const openDetailsBtns = document.querySelectorAll(".open-details-btn");
 
+    function sanitizeHTML(str) {
+        if (typeof str !== "string") return "";
+        return str
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
     function openProjectModal(projectKey) {
         const data = projectDetailsData[projectKey];
         if (!data || !modalBody || !modal) return;
 
-        const techBadges = data.tech.map(t => `<span>${t}</span>`).join("");
-        const featureItems = data.features.map(f => `<li>${f}</li>`).join("");
-        const liveBtn = data.live 
-            ? `<a href="${data.live}" target="_blank" rel="noopener noreferrer" class="project-btn live-demo-btn"><i class="fas fa-external-link-alt"></i> Open Live Demo</a>`
+        const iconClass = sanitizeHTML(data.icon || "fa-laptop-code");
+        const titleText = sanitizeHTML(data.title);
+        const subtitleText = sanitizeHTML(data.subtitle);
+        const descText = sanitizeHTML(data.description);
+        const githubUrl = encodeURI(data.github || "#");
+        const liveUrl = data.live ? encodeURI(data.live) : null;
+
+        const techBadges = (data.tech || []).map(t => `<span>${sanitizeHTML(t)}</span>`).join("");
+        const featureItems = (data.features || []).map(f => `<li>${sanitizeHTML(f)}</li>`).join("");
+        const liveBtn = liveUrl 
+            ? `<a href="${liveUrl}" target="_blank" rel="noopener noreferrer" class="project-btn live-demo-btn"><i class="fas fa-external-link-alt"></i> Open Live Demo</a>`
             : `<span class="project-btn disabled-btn" title="Backend application"><i class="fas fa-clock"></i> Live Demo (Coming Soon)</span>`;
 
         modalBody.innerHTML = `
-            <div class="modal-header-icon"><i class="fas ${data.icon}"></i></div>
-            <h3 class="modal-title">${data.title}</h3>
-            <p class="modal-subtitle">${data.subtitle}</p>
-            <p class="modal-description">${data.description}</p>
+            <div class="modal-header-icon"><i class="fas ${iconClass}"></i></div>
+            <h3 class="modal-title">${titleText}</h3>
+            <p class="modal-subtitle">${subtitleText}</p>
+            <p class="modal-description">${descText}</p>
             
             <h4 class="modal-section-title">Key Features & Architecture:</h4>
             <ul class="modal-features">${featureItems}</ul>
@@ -376,7 +393,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="modal-tech-list project-tech">${techBadges}</div>
 
             <div class="modal-actions">
-                <a href="${data.github}" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="fab fa-github"></i> View GitHub Repository</a>
+                <a href="${githubUrl}" target="_blank" rel="noopener noreferrer" class="project-btn"><i class="fab fa-github"></i> View GitHub Repository</a>
                 ${liveBtn}
             </div>
         `;

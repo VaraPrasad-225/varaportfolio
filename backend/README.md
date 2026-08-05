@@ -90,4 +90,4 @@ public class DBConnection {
    ```bash
    mvn clean package
    ```
-4. Deploy the generated `.war` file onto **Apache Tomcat** webapps directory and access `http://localhost:8080/HospitalPatientPortal`.
+4. Deploy the generated `.war` file onto **Apache Tomcat** webapps directory and access `https://localhost:8443/HospitalPatientPortal`.
