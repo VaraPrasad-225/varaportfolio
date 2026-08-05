@@ -168,22 +168,82 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================================================
     const projectDetailsData = {
         hospital: {
-            title: "1. Hospital Patient Portal",
+            title: "Hospital Patient Portal",
             subtitle: "Full Stack Java Backend & Database Application",
             icon: "fa-hospital",
-            description: "A secure healthcare administration application developed using Core Java, Servlets, JSP, JDBC, and MySQL. Provides efficient patient registration, appointment management, and medical record persistence.",
+            description: "A comprehensive healthcare administration application developed using Core Java, Servlets, JSP, JDBC, and MySQL. Enables patient registration, doctor appointment booking, medical record lookup, and secure relational database persistence.",
             features: [
                 "User Patient Registration & Authenticated Profile Access",
                 "Doctor Appointment Booking & Dynamic Status Tracking",
                 "JDBC Database Connectivity with Relational MySQL Persistence",
-                "Structured Apache Tomcat Deployment with Maven Project Lifecycle"
+                "Structured Apache Tomcat Deployment with Servlet Lifecycle"
             ],
-            tech: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "Maven", "Apache Tomcat"],
+            tech: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/VaraPrasad-225/HospitalPatientPortal",
             live: "https://varaprasad-225.github.io/HospitalPatientPortal/"
         },
+        cineflix: {
+            title: "CineFlix+ OTT Platform",
+            subtitle: "Streaming Entertainment Web Interface",
+            icon: "fa-film",
+            description: "A feature-rich OTT video streaming web platform inspired by Netflix, featuring hero video banners, movie category carousels, detailed media modals, and responsive dark glass UI.",
+            features: [
+                "Dynamic Movie & Series Catalog Carousels",
+                "Interactive Trailer Preview Modal with Audio Controls",
+                "Responsive Dark Theme UI with Glassmorphism",
+                "Search & Genre Filtering Architecture"
+            ],
+            tech: ["HTML5", "CSS3", "JavaScript", "Flexbox / Grid"],
+            github: "https://github.com/VaraPrasad-225/NetflixUiClone",
+            live: "https://varaprasad-225.github.io/NetflixUiClone/"
+        },
+        connectpro: {
+            title: "ConnectPro – Professional Networking",
+            subtitle: "LinkedIn Inspired Social Platform",
+            icon: "fa-linkedin",
+            description: "A professional networking web interface replicating core LinkedIn features including user feed posts, profile sidebars, connection interactions, and dynamic layout responsiveness.",
+            features: [
+                "Interactive Post Creation & Reaction Buttons",
+                "Profile Connections Sidebar & Messaging Panel",
+                "Sticky Header Navigation & Search Bar",
+                "Clean Responsive Layout across Mobile & Desktop"
+            ],
+            tech: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
+            github: "https://github.com/VaraPrasad-225/LinkedinUiClone",
+            live: "https://varaprasad-225.github.io/LinkedinUiClone/"
+        },
+        soundsphere: {
+            title: "SoundSphere – Music Streaming",
+            subtitle: "Spotify Inspired Audio Web App",
+            icon: "fa-spotify",
+            description: "An interactive music player application mimicking Spotify's interface, complete with audio playback controls, playlist selection, volume slider, track seek bar, and album covers.",
+            features: [
+                "Custom Audio Player with Play, Pause, Next, Previous & Seek",
+                "Interactive Track Queue & Album Art Display",
+                "Dynamic Volume Control & Duration Timers",
+                "Dark Audio Player Glass Interface"
+            ],
+            tech: ["HTML5", "CSS3", "JavaScript", "Audio Player"],
+            github: "https://github.com/VaraPrasad-225/soptifyUICLONE",
+            live: "https://varaprasad-225.github.io/soptifyUICLONE/"
+        },
+        portfolio: {
+            title: "Personal Developer Portfolio",
+            subtitle: "Recruiter-Ready Glassmorphism Showcase",
+            icon: "fa-user-gear",
+            description: "A modern, high-performance portfolio website showcasing projects, skills, education, DSA statistics, and interactive modals built with custom CSS design tokens and vanilla JavaScript.",
+            features: [
+                "Custom Glassmorphic Aesthetics & Dynamic Glowing Accents",
+                "Multi-Role Typing Effect & Interactive Details Modals",
+                "Project Filtering & Responsive Mobile Menu",
+                "SEO Optimized & Accessible Layout"
+            ],
+            tech: ["HTML5", "CSS3", "JavaScript", "Glassmorphism"],
+            github: "https://github.com/VaraPrasad-225/varaportfolio",
+            live: "https://varaprasad-225.github.io/varaportfolio/"
+        },
         ecommerce: {
-            title: "2. E-Commerce Website",
+            title: "E-Commerce Website",
             subtitle: "Responsive Online Shopping Storefront",
             icon: "fa-shopping-cart",
             description: "A feature-rich shopping web interface allowing customers to search products, filter items by category, manage cart state, and view order summaries.",
@@ -198,7 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
             live: "https://varaprasad-225.github.io/ecommerce-website/"
         },
         product: {
-            title: "3. Product Landing Page",
+            title: "Product Landing Page",
             subtitle: "Creative Showcase Landing Page",
             icon: "fa-box-open",
             description: "A modern, creative product showcase landing page built with responsive design, smooth feature grids, call-to-action sections, and dynamic UI elements.",
@@ -211,8 +271,22 @@ document.addEventListener("DOMContentLoaded", () => {
             github: "https://github.com/VaraPrasad-225/Product-Landing-Page",
             live: "https://varaprasad-225.github.io/Product-Landing-Page/"
         },
+        tap: {
+            title: "TAP Academy Clone",
+            subtitle: "Learning Platform Interface Replica",
+            icon: "fa-laptop-code",
+            description: "A responsive frontend clone of the TAP Academy official learning portal homepage, course landing pages, and navigation framework.",
+            features: [
+                "Replicated Hero Banners and Course Selection Grids",
+                "CSS Flexbox & Grid CSS Layout Architecture",
+                "Cross-browser Responsive Touch Compatibility"
+            ],
+            tech: ["HTML5", "CSS3", "JavaScript"],
+            github: "https://github.com/VaraPrasad-225/Tap-Academy-Clone",
+            live: "https://varaprasad-225.github.io/Tap-Academy-Clone/"
+        },
         fest: {
-            title: "4. College Fest Landing Page",
+            title: "College Fest Landing Page",
             subtitle: "Event Registration & Showcase Page",
             icon: "fa-calendar-alt",
             description: "An event landing website built for college technical and cultural fests with event schedules, registration input validation, and dynamic visual banners.",
@@ -225,21 +299,54 @@ document.addEventListener("DOMContentLoaded", () => {
             github: "https://github.com/VaraPrasad-225/College-Fest-Landing-Page",
             live: "https://varaprasad-225.github.io/College-Fest-Landing-Page/"
         },
-        tap: {
-            title: "5. TAP Academy Frontend Clone",
-            subtitle: "Learning Platform Interface Replica",
-            icon: "fa-laptop-code",
-            description: "A responsive frontend clone of the TAP Academy official learning portal homepage, course landing pages, and navigation framework.",
+        instagram: {
+            title: "Instagram UI Clone",
+            subtitle: "Social Media Web App Replica",
+            icon: "fa-instagram",
+            description: "A modern, responsive clone of Instagram's web application interface, featuring feed posts, story carousels, sidebar navigation, and interactive like/comment components.",
             features: [
-                "Replicated Hero Banners and Course Selection Grids",
-                "CSS Flexbox & Grid CSS Layout Architecture",
-                "Cross-browser Responsive Touch Compatibility"
+                "Story Carousel & Responsive Feed Card Layout",
+                "Interactive Post Actions (Like, Comment, Save)",
+                "Left Sidebar Navigation with Collapsible Desktop Layout",
+                "Clean Pixel-Perfect Aesthetic"
             ],
-            tech: ["HTML5", "CSS3", "Flexbox", "Responsive Design"],
-            github: "https://github.com/VaraPrasad-225/Tap-Academy-Clone",
-            live: "https://varaprasad-225.github.io/Tap-Academy-Clone/"
+            tech: ["HTML5", "CSS3", "JavaScript"],
+            github: "https://github.com/VaraPrasad-225/InstagramUIClone",
+            live: "https://varaprasad-225.github.io/InstagramUIClone/"
         }
     };
+
+    // ==========================================================================
+    // 7.1 Category Filter Buttons Logic
+    // ==========================================================================
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const projectCards = document.querySelectorAll(".project-card");
+
+    if (filterBtns.length > 0) {
+        filterBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                filterBtns.forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                const filterValue = btn.getAttribute("data-filter");
+
+                projectCards.forEach(card => {
+                    const category = card.getAttribute("data-category");
+                    const isFeatured = card.classList.contains("featured-card");
+
+                    if (filterValue === "all") {
+                        card.style.display = "flex";
+                    } else if (filterValue === "featured") {
+                        card.style.display = isFeatured ? "flex" : "none";
+                    } else if (filterValue === "fullstack") {
+                        card.style.display = (category === "fullstack") ? "flex" : "none";
+                    } else if (filterValue === "frontend") {
+                        card.style.display = (category === "frontend") ? "flex" : "none";
+                    }
+                });
+            });
+        });
+    }
 
     const modal = id("project-modal");
     const modalClose = id("modal-close");
